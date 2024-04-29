@@ -1,5 +1,6 @@
 PUT http://localhost:8080/events/1
 content-type: application/json
+# authorization: {{token}}
 
 {
     "name": "Update test event once",
